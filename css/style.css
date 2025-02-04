@@ -145,6 +145,33 @@ ul {
   background-image: url("../img/6.webp");
 }
 
+#relaxed-tee:hover {
+    background-image: url("../img/1b.webp");
+}
+
+
+/* HOVER */
+
+#roses-tee:hover {
+    background-image: url("../img/2b.webp");
+  }
+
+  #pastello:hover {
+    background-image: url("../img/3b.webp");
+  }
+
+  #tee-unisex:hover {
+    background-image: url("../img/4b.webp");
+  }
+
+  #stripe-bodice:hover {
+    background-image: url("../img/5b.webp");
+  }
+
+  #maglione:hover {
+    background-image: url("../img/6b.webp");
+  }
+
 /*FOOTER*/
 
 footer {
