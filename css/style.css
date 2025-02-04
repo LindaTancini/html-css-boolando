@@ -9,3 +9,49 @@
 body {
     font-family: sans-serif;
 }
+
+/* UTILITIES */
+
+.debug {
+    height: 300px;
+}
+
+.container {
+    width: 1080px;
+    height: 1080px;
+    margin: 0 auto;
+    background-color: pink;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* HEADER */
+
+.nav-bar {
+    background-color: #ff6900;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    height: 30px;
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+    color: #ffff;
+    font-size: 14px;
+}
+
+.profile {
+    color: #ffff;
+    margin-left: 15px;
+}
