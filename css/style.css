@@ -18,8 +18,7 @@ body {
 
 .container {
     width: 1080px;
-    height: 1080px;
-    margin: 0 auto;
+    margin: 100px auto 0 auto;
     background-color: pink;
 }
 
@@ -36,7 +35,9 @@ ul {
     justify-content: space-between;
     padding: 15px 30px;
     position: fixed;
+    top: 0;
     width: 100%;
+    z-index: 1000;
 }
 
 .logo {
@@ -58,8 +59,11 @@ ul {
 
 /* MAIN */
 
-.container {
+.first-container {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
 .prodotto {
@@ -83,6 +87,12 @@ ul {
     background-color: #008000;
     color: #ffff;
 }
+
+.del {
+    color: #000000;
+    text-decoration: line-through;
+}
+
 
 #sustain {
     bottom: 20px;
@@ -115,36 +125,33 @@ ul {
 
 #relaxed-tee {
     background-image: url("../img/1.webp");
-    margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 #roses-tee {
     background-image: url("../img/2.webp");
-    margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 #pastello {
     background-image: url("../img/3.webp");
-    margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 #tee-unisex {
     background-image: url("../img/4.webp");
-    margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 #stripe-bodice {
     background-image: url("../img/5.webp");
-    margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 #maglione {
     background-image: url("../img/6.webp");
-    margin-top: 100px;
-    margin-bottom: 100px;
+}
+
+
+/*FOOTER*/
+
+.final-part {
+    display: flex;
+    height: 100px;
+    background-color: black;
 }
